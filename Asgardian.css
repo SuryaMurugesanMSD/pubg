@@ -1,0 +1,138 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: Headliner No. 45;
+/*background-color:#DE8D00;*/
+}
+header{
+/*kground-image:url(thor.png);*/
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(699698.jpg);
+    height: 180vh;
+    background-position: center;
+    background-size: cover;	
+    background-size: 20px 20px 20px 20px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff transition;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	transition:0.8s ease;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	background-color: #DE8D00;
+}
+.titlecard{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.titlecard h1{
+	color: #fff;
+	font-size: 65px;
+}
+.youtube{
+	position: absolute;
+	top: 100%;
+	left: 47%;
+	transform: translate(-50%,-50%);
+	size: 50px;
+}
+.youtube h1 a{
+	text-decoration: none;
+	font-size: 65px
+}
+.youtube h1 a:hover{
+	background: white;
+	transition:1s ease;
+}
+.logo1 img{
+	position: absolute;
+	top: 108%;
+	left: 48%;
+	transform: translate(-50%,-50%);
+	width:220px; 
+	height:220px;
+}
+.logo2 img{
+	position: absolute;
+	top: 136%;
+	left: 47%;
+	transform: translate(-50%,-50%);
+	width:160px; 
+	height:160px;
+}
+#section1{
+	height: 1250px;
+	background: #3D94CD;
+	display: inline-block;
+	width: 100%;
+	}
+
+#section2{
+	height: 700px;
+	background:#fff;
+	display: inline-block;
+	width: 100%;
+    text-align: center;
+}
+.container-1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%;
+	color: green;
+}
+.container-1 div{
+	border:1px #ccc solid;
+	padding: 72px;
+
+}
+#section3{
+	height: 700px;
+	background: #C3DEE1;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+
+}
+
+#section4{
+	height: 700px;
+	background: #fff;
+	display: inline-block;
+	width: 100%;
+    text-align: center;
+
+}
+#section4{
+	height: 700px;
+	background: #fff;
+	display: inline-block;
+	width: 100%;
+		text-align: center;
+
+}
+
+#section5{
+	height: 700px;
+	background:#C3DEE1;
+	display: inline-block;
+	width: 100%;
+		text-align: center;
